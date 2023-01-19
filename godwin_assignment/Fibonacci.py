@@ -1,5 +1,5 @@
 if __name__ == '__main__':
-    def Fibonacci(number):
+    def fibonacci(number):
         if number < 0:
             print("invalid number")
 
@@ -8,6 +8,7 @@ if __name__ == '__main__':
         elif number == 1 or number == 2:
             return 1
         else:
-            return Fibonacci(number - 1) + Fibonacci(number - 2)
+            return fibonacci(number - 1) + fibonacci(number - 2)
 
-    print(Fibonacci(6))
+
+    print(fibonacci(6))

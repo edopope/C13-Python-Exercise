@@ -1,10 +1,5 @@
 if __name__ == '__main__':
-    # for x in range(12):
-    #    print(2+(x*2))
-    # for x in range(12):
-    # print(3+(x*3))
-
-    for number in range(1, 13, 1):
+       for number in range(1, 13, 1):
         two = number * 2
         three = number * 3
         four = number * 4
